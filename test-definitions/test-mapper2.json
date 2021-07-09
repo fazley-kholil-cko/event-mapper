@@ -1,0 +1,8 @@
+{
+    "Name": "TestEvent2",
+    "Mapping": {
+        "Field1": "FieldDest1",
+        "Field2": "FieldDest2",
+        "Field3": "SchemeData.FieldDest3"
+    }
+}

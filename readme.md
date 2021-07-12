@@ -1,4 +1,5 @@
-![example workflow](https://github.com/fazley-kholil-cko/event-mapper/actions/workflows/nodejs.yml/badge.svg)
+[![Node.js CI](https://github.com/fazley-kholil-cko/event-mapper/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/fazley-kholil-cko/event-mapper/actions/workflows/node.js.yml)
+
 
 # event-mapper
 

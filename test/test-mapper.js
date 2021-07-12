@@ -33,5 +33,15 @@ it('Test mapping from dto to event', function (done) {
     expect(dto.Field3).to.equal(e2Field3);
 
     done();
+});
 
+
+it('Testing some event hash', function (done) {
+    var hash1 = eventMapper.generateEventHash('TestEvent1_65d6b12c-68a3-4518-a863-8082c3443410_19e72db8-dfd6-4bd4-92a5-8e8ba43455c1');
+    var hash2 = eventMapper.generateEventHash('TestEvent1_65d6b12c-68a3-4518-a863-8082c3443410_19e72db8-dfd6-4bd4-92a5-8e8ba43455c1');
+
+    expect('5a7210728bd4f27c0a142fc8ac808918').to.equal(hash1);
+    expect('5a7210728bd4f27c0a142fc8ac808918').to.equal(hash2);
+
+    done();
 });

@@ -59,4 +59,12 @@ console.log(event.TestEvent1.SchemeData.FieldDest3);
 
 //200
 
+
+//Generating an event hash - eventMapper.generateEventHash('string_here')
+var hash = eventMapper.generateEventHash('TestEvent1_65d6b12c-68a3-4518-a863-8082c3443410_19e72db8-dfd6-4bd4-92a5-8e8ba43455c1');
+console.log(hash);
+
+//output: 
+//5a7210728bd4f27c0a142fc8ac808918
+
 ```

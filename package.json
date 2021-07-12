@@ -1,6 +1,6 @@
 {
   "name": "event-mapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "app.js",
   "scripts": {
     "test": "mocha test/ "
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/fazley-kholil-cko/event-mapper#readme",
   "description": "",
   "dependencies": {
+    "crypto": "^1.0.1",
     "object-mapper": "^6.2.0"
   },
   "devDependencies": {

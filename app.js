@@ -1,5 +1,9 @@
 var objectMapper = require('object-mapper');
 var fs = require('fs');
+const crypto = require('crypto')
+
+
+
 
 function compileMappings(mappingPath) {
     var eventMappers = [];
@@ -35,8 +39,13 @@ function map(dto, mapper) {
     var dest = objectMapper(dto, mapper);
 
     return dest;
+}
 
+function generateEventHash(str) {
+    let hash = crypto.createHash('md5').update(str).digest("hex");
+    return hash;
 }
 
 module.exports.init = compileMappings;
 module.exports.map = map;
+module.exports.generateEventHash = generateEventHash;

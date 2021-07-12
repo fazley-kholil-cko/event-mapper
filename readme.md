@@ -1,3 +1,5 @@
+![example workflow](https://github.com/fazley-kholil-cko/event-mapper/actions/workflows/nodejs.yml/badge.svg)
+
 # event-mapper
 
 
